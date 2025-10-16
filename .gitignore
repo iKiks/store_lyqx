@@ -1,0 +1,157 @@
+# store_lyqx project .gitignore
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# The .vscode folder contains launch config and tasks. Uncomment if you
+# want to version them across the team.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Dart/coverage
+coverage/
+lcov.info
+
+# IDEs/editors
+.vscode/
+.fleet/
+.idea_modules/
+.project
+.classpath
+.settings/
+.gradle/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/.settings/
+**/android/captures/
+**/android/.idea/
+**/android/**/build/
+**/android/**/generated/
+
+# iOS
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/build/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/RunnerTests/RunnerTests.xctest
+
+# macOS
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/build/
+**/macos/Runner.xcworkspace/xcuserdata/
+**/macos/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/macos/Runner.xcodeproj/xcuserdata/
+
+# Windows
+**/windows/x64/
+**/windows/x86/
+**/windows/arm64/
+**/windows/**/GeneratedFiles/
+**/windows/**/Debug/
+**/windows/**/Release/
+**/windows/**/build/
+
+# Linux
+**/linux/**/CMakeFiles/
+**/linux/**/cmake-build-*/
+**/linux/**/Makefile
+**/linux/**/build/
+
+# Web
+**/web/.dart_tool/
+**/web/build/
+
+# Generated assets
+**/build/**
+**/native_assets/**
+**/build/**/generated/
+
+# Dependency managers
+pubspec.lock # if publishing a package, lock may be excluded
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Secrets and env
+.env
+.env.*
+*.keystore
+*.jks
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# Firebase/Crashlytics (if used)
+**/ios/**/GoogleService-Info.plist
+**/android/**/google-services.json
+**/android/**/crashlytics-build.properties
+
+# Fastlane (if used)
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# CocoaPods (safety, some already covered)
+Podfile.lock
+
+# Build artifacts in platform dirs
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+
+# Analysis outputs
+**/build/reports/
+**/build/tmp/
+
+
