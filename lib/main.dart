@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
     ResponsiveSize.init(context);
 
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       routerConfig: AppRouter.router,
       title: 'Flutter Demo',
       theme: ThemeData(
