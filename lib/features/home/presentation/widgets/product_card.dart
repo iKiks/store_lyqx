@@ -30,7 +30,7 @@ class ProductCard extends StatelessWidget {
           height: ResponsiveSize.height(121),
           width: ResponsiveSize.width(342),
           decoration: BoxDecoration(
-            color: AppColors.extraLightColor,
+            color: AppColors.transparentWhiteColor,
             borderRadius: BorderRadius.circular(ResponsiveSize.width(12)),
           ),
           padding: EdgeInsets.only(
@@ -52,7 +52,7 @@ class ProductCard extends StatelessWidget {
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) {
                     return Container(
-                      color: AppColors.lightGreyColor,
+                      color: AppColors.transparentWhiteColor,
                       child: Icon(
                         Icons.image_not_supported,
                         size: ResponsiveSize.height(70),
@@ -102,6 +102,7 @@ class ProductCard extends StatelessWidget {
                       price,
                       fontSize: ResponsiveSize.fontSize(14),
                       fontWeight: FontWeight.w600,
+                      color: AppColors.greyColor,
                     ),
                     SizedBox.shrink(),
                   ],

@@ -54,6 +54,7 @@ class CartItemCard extends StatelessWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       fontSize: ResponsiveSize.fontSize(14),
+                      fontWeight: FontWeight.w600,
                     ),
                     const SizedBox(height: 8),
                     QuantitySelector(
@@ -64,12 +65,10 @@ class CartItemCard extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 8),
-              Text(
+              AppTexts.inter(
                 '\$${(item.price * item.quantity).toStringAsFixed(2)}',
-                style: const TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
-                ),
+                fontSize: ResponsiveSize.fontSize(14),
+                fontWeight: FontWeight.w600,
               ),
             ],
           ),

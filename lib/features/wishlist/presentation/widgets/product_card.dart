@@ -27,7 +27,7 @@ class WishlistProductCard extends StatelessWidget {
           height: ResponsiveSize.height(121),
           width: ResponsiveSize.width(342),
           decoration: BoxDecoration(
-            color: AppColors.extraLightColor,
+            color: AppColors.transparentWhiteColor,
             borderRadius: BorderRadius.circular(ResponsiveSize.width(12)),
           ),
           padding: EdgeInsets.only(
@@ -77,12 +77,12 @@ class WishlistProductCard extends StatelessWidget {
                       price,
                       fontSize: ResponsiveSize.fontSize(12),
                       fontWeight: FontWeight.w600,
+                      color: AppColors.greyColor,
                     ),
                     SizedBox(height: ResponsiveSize.height(8)),
                     AppButtons(
                       buttonText: 'Add to cart',
                       onPressed: () {
-                        // Parse price "$12.34" -> double
                         final parsedPrice =
                             double.tryParse(
                               price.replaceAll(RegExp(r'[^0-9\.]'), ''),

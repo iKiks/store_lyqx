@@ -21,7 +21,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.extraLightColor,
+      backgroundColor: AppColors.semiTransparentWhiteColor,
       body: SafeArea(
         bottom: false,
         child: BlocBuilder<ProductBloc, ProductState>(
@@ -58,7 +58,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                       // Top image area
                       Container(
                         decoration: BoxDecoration(
-                          color: AppColors.extraLightColor,
+                          color: AppColors.semiTransparentWhiteColor,
                           borderRadius: BorderRadius.vertical(
                             bottom: Radius.circular(16),
                           ),

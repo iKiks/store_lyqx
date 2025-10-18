@@ -20,5 +20,8 @@ class AppColors {
   static const Color darkGreyColor = Color(0xFF363939);
   static const Color extraLightColor = Color(0xFFE8ECF4);
   static const Color inputFieldColor = Color(0xFFF7F8F9);
+  static const Color transparentWhiteColor = Color(0x0D000000);
+  static const Color semiTransparentWhiteColor = Color(0xFFF8F7FA);
+  static const Color semiTransparentBlackColor = Color(0xBF000000);
   
 }

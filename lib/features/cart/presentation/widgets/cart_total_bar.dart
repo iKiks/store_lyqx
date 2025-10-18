@@ -38,7 +38,7 @@ class CartTotalBar extends StatelessWidget {
                   fontSize: ResponsiveSize.fontSize(12),
                   color: AppColors.textColor,
                 ),
-                AppTexts(
+                AppTexts.lora(
                   '\$ ${total.toStringAsFixed(2)}',
                   fontSize: ResponsiveSize.fontSize(20),
                   fontWeight: FontWeight.w700,
@@ -47,9 +47,9 @@ class CartTotalBar extends StatelessWidget {
             ),
           ),
 
-          // Add to cart button
+          // Checkout button
           AppButtons(
-            buttonText: 'Add to cart',
+            buttonText: 'Checkout',
             onPressed: onCheckout,
             buttonColor: AppColors.blackColor,
             textColor: AppColors.whiteColor,
